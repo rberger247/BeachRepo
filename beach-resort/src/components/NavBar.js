@@ -21,12 +21,13 @@ export default class NavBar extends Component {
           </Link>
           <button
             type="button"
-        
-            onClick={this.handleToggle}
+            className='nav-btn'
+            onClick={this.handleToggle}>
+            <FaAlignRight className="nav-icon" />
           >
     
           </button>
-          <FaAlignRight className="nav-icon" />
+     
         </div>
         <ul
               className={
